@@ -3,3 +3,4 @@ exclude:
   - "*/**"
 include:
   - "README.md"
+  - "index.yaml"
