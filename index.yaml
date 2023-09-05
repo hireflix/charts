@@ -1,0 +1,45 @@
+apiVersion: v1
+entries:
+  mongodb:
+  - apiVersion: v1
+    appVersion: 4.2.4
+    created: "2023-09-05T08:47:05.434438298Z"
+    deprecated: true
+    description: DEPRECATED NoSQL document-oriented database that stores JSON-like
+      documents with dynamic schemas, simplifying the integration of data in content-driven
+      applications.
+    digest: ef0c6bf86910960ca4185b4aafc6475744f941133820811f8339e7a33ba41017
+    home: https://mongodb.org
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    keywords:
+    - mongodb
+    - database
+    - nosql
+    - cluster
+    - replicaset
+    - replication
+    name: mongodb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - https://github.com/hireflix/charts/releases/download/mongodb-7.8.10/mongodb-7.8.10.tgz
+    version: 7.8.10
+  mongodb-replicaset:
+  - apiVersion: v1
+    appVersion: "3.6"
+    created: "2023-09-05T08:47:05.664195427Z"
+    deprecated: true
+    description: DEPRECATED - NoSQL document-oriented database that stores JSON-like
+      documents with dynamic schemas, simplifying the integration of data in content-driven
+      applications.
+    digest: c42b3989d00f5c8bd955f729f3bbbe4b096ad323eb0251e7aff4f124a26948d2
+    home: https://github.com/mongodb/mongo
+    icon: https://webassets.mongodb.com/_com_assets/cms/mongodb-logo-rgb-j6w271g1xn.jpg
+    name: mongodb-replicaset
+    sources:
+    - https://github.com/mongodb/mongo
+    - https://github.com/percona/mongodb_exporter
+    urls:
+    - https://github.com/hireflix/charts/releases/download/mongodb-replicaset-3.18.0/mongodb-replicaset-3.18.0.tgz
+    version: 3.18.0
+generated: "2023-09-05T08:47:05.664202727Z"
