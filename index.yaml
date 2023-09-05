@@ -27,6 +27,23 @@ entries:
   mongodb-replicaset:
   - apiVersion: v1
     appVersion: "3.6"
+    created: "2023-09-05T09:18:10.818458961Z"
+    deprecated: true
+    description: DEPRECATED - NoSQL document-oriented database that stores JSON-like
+      documents with dynamic schemas, simplifying the integration of data in content-driven
+      applications.
+    digest: 63be8b4b12067fb3826f15bd8af1a6d260d709db4c3ea34cf32740930b930dfb
+    home: https://github.com/mongodb/mongo
+    icon: https://webassets.mongodb.com/_com_assets/cms/mongodb-logo-rgb-j6w271g1xn.jpg
+    name: mongodb-replicaset
+    sources:
+    - https://github.com/mongodb/mongo
+    - https://github.com/percona/mongodb_exporter
+    urls:
+    - https://github.com/hireflix/charts/releases/download/mongodb-replicaset-3.18.1/mongodb-replicaset-3.18.1.tgz
+    version: 3.18.1
+  - apiVersion: v1
+    appVersion: "3.6"
     created: "2023-09-05T08:47:05.664195427Z"
     deprecated: true
     description: DEPRECATED - NoSQL document-oriented database that stores JSON-like
@@ -42,4 +59,4 @@ entries:
     urls:
     - https://github.com/hireflix/charts/releases/download/mongodb-replicaset-3.18.0/mongodb-replicaset-3.18.0.tgz
     version: 3.18.0
-generated: "2023-09-05T08:47:05.664202727Z"
+generated: "2023-09-05T09:18:10.818473661Z"
